@@ -1,0 +1,44 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wall" x1="800" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8C8B2"/>
+      <stop offset="1" stop-color="#8C6D58"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="800" y1="600" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9A765B"/>
+      <stop offset="1" stop-color="#4C342B"/>
+    </linearGradient>
+    <linearGradient id="window" x1="800" y1="90" x2="800" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8DCE5"/>
+      <stop offset="1" stop-color="#F2C994"/>
+    </linearGradient>
+    <filter id="softLight" x="-100" y="-100" width="1800" height="1200" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#wall)"/>
+  <rect y="585" width="1600" height="415" fill="url(#floor)"/>
+  <rect x="505" y="82" width="590" height="430" rx="12" fill="#493E3C"/>
+  <rect x="530" y="108" width="540" height="378" rx="6" fill="url(#window)"/>
+  <path d="M800 108V486M530 298H1070" stroke="#5D4A47" stroke-width="20"/>
+  <circle cx="960" cy="185" r="105" fill="#FFF0BD" opacity="0.46" filter="url(#softLight)"/>
+  <path d="M0 160H380V760H0V160ZM1220 125H1600V760H1220V125Z" fill="#4A312A"/>
+  <path d="M20 185H360M20 330H360M20 475H360M20 620H360M1240 150H1580M1240 295H1580M1240 440H1580M1240 585H1580" stroke="#B48A5E" stroke-width="22"/>
+  <path d="M34 185V760M150 185V760M270 185V760M1340 150V760M1460 150V760M1575 150V760" stroke="#6D4737" stroke-width="12"/>
+  <g opacity="0.9">
+    <rect x="48" y="205" width="30" height="105" fill="#B65E51"/><rect x="92" y="198" width="28" height="112" fill="#5B7890"/><rect x="188" y="205" width="31" height="105" fill="#D0A15B"/><rect x="230" y="190" width="29" height="120" fill="#738A67"/><rect x="290" y="210" width="27" height="100" fill="#8D5C78"/>
+    <rect x="50" y="350" width="30" height="105" fill="#D0A15B"/><rect x="100" y="340" width="28" height="115" fill="#7D4C42"/><rect x="190" y="350" width="29" height="105" fill="#567B76"/><rect x="245" y="340" width="26" height="115" fill="#B65E51"/><rect x="300" y="350" width="30" height="105" fill="#5B7890"/>
+    <rect x="50" y="500" width="30" height="105" fill="#738A67"/><rect x="105" y="490" width="27" height="115" fill="#8D5C78"/><rect x="190" y="500" width="30" height="105" fill="#B65E51"/><rect x="245" y="490" width="29" height="115" fill="#D0A15B"/><rect x="300" y="500" width="28" height="105" fill="#567B76"/>
+    <rect x="1260" y="180" width="30" height="105" fill="#738A67"/><rect x="1310" y="168" width="28" height="117" fill="#D0A15B"/><rect x="1400" y="180" width="30" height="105" fill="#B65E51"/><rect x="1460" y="170" width="28" height="115" fill="#5B7890"/><rect x="1520" y="180" width="27" height="105" fill="#8D5C78"/>
+    <rect x="1260" y="325" width="30" height="105" fill="#D0A15B"/><rect x="1315" y="315" width="27" height="115" fill="#567B76"/><rect x="1400" y="325" width="29" height="105" fill="#738A67"/><rect x="1460" y="315" width="30" height="115" fill="#B65E51"/><rect x="1520" y="325" width="28" height="105" fill="#5B7890"/>
+    <rect x="1260" y="470" width="30" height="105" fill="#8D5C78"/><rect x="1315" y="460" width="28" height="115" fill="#B65E51"/><rect x="1400" y="470" width="30" height="105" fill="#D0A15B"/><rect x="1460" y="460" width="27" height="115" fill="#567B76"/><rect x="1520" y="470" width="30" height="105" fill="#738A67"/>
+  </g>
+  <path d="M510 710H1090L1190 1000H410L510 710Z" fill="#5B3C31"/>
+  <path d="M580 680H1020L1090 735H510L580 680Z" fill="#8F644B"/>
+  <path d="M690 735H910V790H690V735Z" fill="#2E3940"/>
+  <path d="M710 790V930M890 790V930" stroke="#3E2B28" stroke-width="28"/>
+  <path d="M80 880H370M1230 880H1520" stroke="#D1A270" stroke-opacity="0.4" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="800" cy="515" r="105" fill="#FFE1A3" opacity="0.28" filter="url(#softLight)"/>
+  <path d="M780 500H820V625H780V500Z" fill="#E5BE76"/>
+  <path d="M740 625H860L890 655H710L740 625Z" fill="#D29E5E"/>
+</svg>
