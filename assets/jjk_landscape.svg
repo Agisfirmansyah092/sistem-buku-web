@@ -1,0 +1,24 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="800" gradientUnits="userSpaceOnUse"><stop stop-color="#120F2B"/><stop offset="0.55" stop-color="#493B71"/><stop offset="1" stop-color="#C26A86"/></linearGradient>
+    <linearGradient id="city" x1="800" y1="430" x2="800" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#28294D"/><stop offset="1" stop-color="#0D1228"/></linearGradient>
+    <filter id="glow" x="-100" y="-100" width="600" height="600"><feGaussianBlur stdDeviation="32"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1170" cy="300" r="190" fill="#D9A3EF" opacity="0.25" filter="url(#glow)"/>
+  <circle cx="1170" cy="300" r="105" fill="#E8C8F3" opacity="0.55"/>
+  <path d="M0 590L230 405L390 530L610 300L815 535L1040 350L1270 540L1450 390L1600 515V720H0V590Z" fill="#302E59" opacity="0.9"/>
+  <path d="M0 670L190 515L360 625L580 450L800 650L1015 470L1240 635L1450 500L1600 600V1000H0V670Z" fill="url(#city)"/>
+  <path d="M0 760H160V620H245V760H320V560H420V760H500V650H590V760H680V500H785V760H850V610H940V760H1020V540H1120V760H1210V640H1300V760H1390V575H1500V760H1600V1000H0V760Z" fill="#151A35"/>
+  <path d="M110 820H1490M230 875H1350M410 930H1200" stroke="#A88BCB" stroke-opacity="0.28" stroke-width="7" stroke-linecap="round"/>
+  <path d="M690 160L730 250L830 260L750 320L775 420L690 360L605 420L630 320L550 260L650 250L690 160Z" fill="#D59EEB" opacity="0.26"/>
+    <g opacity="0.82">
+      <circle cx="420" cy="600" r="25" fill="#D6B4E8"/>
+      <path d="M382 650C382 615 400 600 420 600C440 600 458 615 458 650L474 790H366L382 650Z" fill="#15152E"/>
+      <path d="M390 670L340 760M450 670L500 760" stroke="#B18BCB" stroke-width="14" stroke-linecap="round"/>
+      <path d="M395 790L370 900M445 790L470 900" stroke="#101326" stroke-width="18" stroke-linecap="round"/>
+      <circle cx="1180" cy="625" r="22" fill="#E4C4E8"/>
+      <path d="M1148 670C1150 640 1162 625 1180 625C1198 625 1210 640 1212 670L1235 800H1125L1148 670Z" fill="#29294D"/>
+      <path d="M1158 690L1110 785M1200 690L1245 760" stroke="#D49BCB" stroke-width="12" stroke-linecap="round"/>
+    </g>
+</svg>
