@@ -1,0 +1,26 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#4EB9E9"/><stop offset="0.62" stop-color="#B5E8ED"/><stop offset="1" stop-color="#FFE0A0"/></linearGradient>
+    <linearGradient id="sea" x1="800" y1="590" x2="800" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#168DAE"/><stop offset="1" stop-color="#063D66"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1190" cy="250" r="120" fill="#FFF1B0" opacity="0.86"/>
+  <path d="M0 280C160 180 290 355 470 260C620 180 760 340 920 245C1090 140 1230 310 1400 215C1490 165 1550 190 1600 180V360C1430 400 1300 330 1120 390C930 455 780 335 590 410C390 485 260 335 0 455V280Z" fill="#F8FCF1" opacity="0.82"/>
+  <path d="M0 680L180 570L300 630L470 420L650 650L820 500L980 650L1150 425L1340 615L1510 505L1600 560V780H0V680Z" fill="#2E7B68"/>
+  <path d="M0 730L240 620L390 700L560 565L760 720L950 590L1120 720L1330 600L1600 700V1000H0V730Z" fill="#175F59"/>
+  <path d="M0 625C260 590 420 640 650 610C890 575 1120 650 1380 600C1480 580 1540 590 1600 580V1000H0V625Z" fill="url(#sea)"/>
+  <path d="M0 760C270 720 470 790 720 745C970 700 1220 780 1600 725" stroke="#B2F0E1" stroke-opacity="0.6" stroke-width="12" stroke-linecap="round"/>
+  <path d="M280 845C470 820 650 865 850 830M910 925C1110 895 1300 940 1500 900" stroke="#83D9D7" stroke-opacity="0.42" stroke-width="8" stroke-linecap="round"/>
+  <path d="M230 625C230 625 230 390 230 350M230 390L420 455M230 430L80 505" stroke="#4A2F2A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M240 365L420 455L245 500Z" fill="#F4F1D0" opacity="0.85"/>
+    <g opacity="0.88">
+      <circle cx="610" cy="605" r="25" fill="#F2BE91"/>
+      <path d="M568 650C570 620 585 605 610 605C635 605 650 620 652 650L675 805H545L568 650Z" fill="#D85E4C"/>
+      <path d="M578 680L520 780M642 680L710 750" stroke="#F2BE91" stroke-width="14" stroke-linecap="round"/>
+      <path d="M575 805L550 920M645 805L675 920" stroke="#183F5E" stroke-width="18" stroke-linecap="round"/>
+      <circle cx="980" cy="640" r="23" fill="#B86F4F"/>
+      <path d="M940 680C942 650 956 640 980 640C1004 640 1018 650 1020 680L1045 815H915L940 680Z" fill="#F1D27B"/>
+      <path d="M950 705L885 770M1010 705L1070 770" stroke="#B86F4F" stroke-width="13" stroke-linecap="round"/>
+      <path d="M950 815L925 930M1010 815L1035 930" stroke="#2B5774" stroke-width="18" stroke-linecap="round"/>
+    </g>
+</svg>
